@@ -20,3 +20,8 @@ fi
 export GIT_PS1_SHOWDIRTYSTATE=1
 PS1='\n\[\033[0;38m\]\u@\h \w \[\033[0;32m\]$(__git_ps1 "%s") \n\[\033[0;38m\]> '
 
+if [ -e ~/.bash_profile.local ]
+then
+  source ~/.bash_profile.local
+fi
+
