@@ -9,5 +9,7 @@ alias gdiff='git diff'
 alias gwat='git whatchanged'
 alias gwatp='git whatchanged -p'
 
+alias gw=./gradlew
+
 alias psg='ps -elf | grep -i'
 alias latr='ls -latr'
