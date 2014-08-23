@@ -4,4 +4,15 @@
 [color]
 	ui = true
 [core]
-	editor = vim
+  editor = vim
+[alias]
+  cam = commit -am
+  co = checkout
+  cob = checkout -b
+  d = diff
+  f = fetch
+  l = log
+  p = pull
+  s = status
+  w = whatchanged
+  wp = whatchanged -p

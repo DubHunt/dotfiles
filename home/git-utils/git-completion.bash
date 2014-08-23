@@ -2764,3 +2764,8 @@ __git_complete gitk __gitk_main
 if [ Cygwin = "$(uname -o 2>/dev/null)" ]; then
 __git_complete git.exe __git_main
 fi
+
+# Enable git command  autocompletion for 'g' as well
+hash git >/dev/null 2>&1 && {
+  complete -o default -o nospace -F _git g
+}
