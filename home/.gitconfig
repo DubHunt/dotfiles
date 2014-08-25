@@ -12,7 +12,8 @@
   d = diff
   f = fetch
   l = log
-  p = pull
+  pl = pull
+  ps = push
   s = status
   w = whatchanged
   wp = whatchanged -p
