@@ -25,3 +25,5 @@ then
   source ~/.bash_profile.local
 fi
 
+eval "$(rbenv init -)"
+export PATH=./bin:$PATH
