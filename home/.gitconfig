@@ -1,6 +1,6 @@
 [user]
 	name = Anthony Hunt
-	email = anthony.hunt@readytalk.com
+	email = anthony@firepoint.net
 [color]
 	ui = true
 [core]
@@ -11,6 +11,7 @@
   co = checkout
   cob = checkout -b
   d = diff
+  ds = diff --staged
   f = fetch
   l = log
   pl = pull
