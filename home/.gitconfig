@@ -1,8 +1,8 @@
 [user]
-	name = Anthony Hunt
-	email = anthony@firepoint.net
+  name = Anthony Hunt
+  email = anthony@firepoint.net
 [color]
-	ui = true
+  ui = true
 [core]
   editor = vim
 [alias]
