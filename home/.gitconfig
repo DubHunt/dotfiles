@@ -7,6 +7,7 @@
   editor = vim
 [alias]
   a = add
+  cm = commit -m
   cam = commit -am
   co = checkout
   cob = checkout -b
@@ -14,6 +15,7 @@
   ds = diff --staged
   f = fetch
   l = log
+  lo = log --oneline
   pl = pull
   ps = push
   s = status
