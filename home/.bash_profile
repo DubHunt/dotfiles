@@ -27,3 +27,4 @@ fi
 
 eval "$(rbenv init -)"
 export PATH=./bin:$PATH
+export EDITOR=vim
