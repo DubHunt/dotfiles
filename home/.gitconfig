@@ -11,6 +11,7 @@
   cam = commit -am
   co = checkout
   cob = checkout -b
+  cot = checkout --track
   d = diff
   ds = diff --staged
   f = fetch
