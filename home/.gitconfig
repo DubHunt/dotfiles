@@ -21,3 +21,5 @@
   s = status
   w = whatchanged
   wp = whatchanged -p
+[push]
+	default = simple
