@@ -28,3 +28,4 @@ fi
 eval "$(rbenv init -)"
 export PATH=./bin:$PATH
 export EDITOR=vim
+[[ -s /usr/local/etc/profile.d/autojump.sh ]] && . /usr/local/etc/profile.d/autojump.sh
