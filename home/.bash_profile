@@ -29,10 +29,3 @@ eval "$(rbenv init -)"
 export PATH=./bin:$PATH
 export EDITOR=vim
 [[ -s /usr/local/etc/profile.d/autojump.sh ]] && . /usr/local/etc/profile.d/autojump.sh
-
-if [ -f ~/.config/exercism/exercism_completion.bash ]; then
-  . ~/.config/exercism/exercism_completion.bash
-fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
