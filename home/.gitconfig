@@ -24,3 +24,5 @@
   wp = whatchanged -p
 [push]
 	default = simple
+[init]
+	templateDir = /Users/anthonyhunt/.git_template
